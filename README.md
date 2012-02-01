@@ -1,19 +1,19 @@
-h1. Joe Ferris' Config Files
+# Matt Gillooly's tweaks to [Joe Ferris' Config Files](https://github.com/jferris/config_files)
 
 a.k.a. dot files
 
-h2. Install
+## Install
 
 Clone this repository, change into the cloned directory, and run:
 
-<pre>
+```bash
 ./install.sh
-</pre>
+```
 
 This will create symlinks for all config files in your home directory. You can
 safely run this file multiple times to update.
 
-h2. Scripts
+## Scripts
 
 Some of the aliases and vim shortcuts use these scripts:
 
