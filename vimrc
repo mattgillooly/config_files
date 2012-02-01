@@ -26,6 +26,12 @@ if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
   set nohlsearch
 endif
 
+syntax enable
+set background=dark
+colorscheme solarized
+
+au BufNewFile,BufRead *.jsonify set filetype=ruby
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
