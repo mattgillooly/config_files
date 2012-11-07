@@ -18,6 +18,11 @@ if &cp || (exists("g:loaded_rails") && g:loaded_rails) && !(exists("g:rails_debu
 endif
 let g:loaded_rails = 1
 
+let g:vest_runners = { 
+  \ '_spec.rb': 'bundle exec rspec %', 
+  \ '.feature': 'bundle exec rake cucumber FEATURE=%'
+  \ }
+
 " Utility Functions {{{1
 
 function! s:error(str)

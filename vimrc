@@ -203,3 +203,6 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
+call pathogen#infect()
+
+nnoremap <leader>t :Vest<cr>
