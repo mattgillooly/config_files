@@ -104,6 +104,9 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 " Maps autocomplete to tab
 imap <Tab> <C-P>
 
+" Maps jj to Escape
+imap jj <Esc>
+
 " Duplicate a selection
 " Visual mode: D
 vmap D y'>p
