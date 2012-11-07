@@ -193,6 +193,11 @@ autocmd User Rails map <Leader>g :Rconfig
 autocmd User Rails map <Leader>sg :RSconfig 
 autocmd User Rails map <Leader>tg :RTconfig 
 
+" Racket lang
+if has("autocmd")
+  au BufReadPost *.rkt,*.rktl set filetype=scheme
+endif
+
 nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
