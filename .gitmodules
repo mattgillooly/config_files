@@ -1,0 +1,3 @@
+[submodule "vim/bundle/vest"]
+	path = vim/bundle/vest
+	url = git@github.com:hojberg/vest.git
